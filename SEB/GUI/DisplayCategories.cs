@@ -26,6 +26,7 @@ namespace SEB.GUI
                 {
                     Console.WriteLine($"{c.id} {c.CategoryName}");
                 }
+                Console.WriteLine("4. Go back");
 
                 // this is bad because it needs to be expanded if more categories are added
 

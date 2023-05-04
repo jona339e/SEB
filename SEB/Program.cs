@@ -5,6 +5,7 @@ internal class Program
     static void Main(string[] args)
     {
         DisplayCategories displayCategories = new DisplayCategories();
+        DisplayAllOrders displayAllOrders = new DisplayAllOrders();
 
         while (true)
         {
@@ -24,6 +25,8 @@ internal class Program
                 case 2:
                     {
                         // display all orders
+                        //displayAllOrders.DisplayAllGrocerOrders();
+                        Console.WriteLine("Not implemented");
                         break;
                     }
 
